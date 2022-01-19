@@ -1,0 +1,50 @@
+{
+    "name": "jw-react-npm-boilerplate-v2",
+    "version": "3.1.9",
+    "description": "React Boilerplate Component for npm",
+    "homepage": "http://jasonwatmore.com/post/2018/04/14/react-npm-how-to-publish-a-react-component-to-npm",
+    "keywords": [
+        "React",
+        "Boilerplate",
+        "npm"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/cornflourblue/jw-react-npm-boilerplate"
+    },
+    "main": "./lib/BoilerplateComponent.js",
+    "license": "MIT",
+    "scripts": {
+        "build": "webpack"
+    },
+    "peerDependencies": {
+        "prop-types": "^15.6.0",
+        "react": "17.0.2",
+        "react-dom": "17.0.2"
+    },
+    "devDependencies": {
+        "babel-core": "^6.21.0",
+        "babel-loader": "^7.1.4",
+        "babel-preset-env": "^1.6.1",
+        "babel-preset-react": "^6.16.0",
+        "babel-preset-stage-0": "^6.24.1",
+        "css-loader": "^1.0.0",
+        "file-loader": "^6.2.0",
+        "path": "^0.12.7",
+        "prop-types": "^15.6.0",
+        "react": "17.0.2",
+        "react-dom": "17.0.2",
+        "style-loader": "^0.23.0",
+        "ts-loader": "^7.0.1",
+        "url-loader": "^1.0.1",
+        "webpack": "^4.5.0",
+        "webpack-cli": "^3.2.1"
+    },
+    "dependencies": {
+        "@types/jest": "^27.4.0",
+        "@types/node": "^17.0.9",
+        "@types/react": "^17.0.38",
+        "@types/react-dom": "^17.0.11",
+        "typescript": "^4.5.4"
+    }
+}
